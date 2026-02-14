@@ -65,13 +65,11 @@ const AboutSection = () => {
             <div className="retro-card">
               <p className="font-mono-retro text-sm text-secondary mb-2">{'> cat about.txt'}</p>
               <p className="font-heading text-sm leading-relaxed text-foreground/80 mb-4">
-                I'm a passionate developer specializing in Flutter mobile apps and modern web applications. 
-                With a love for clean code and pixel-perfect design, I build experiences that are both 
-                beautiful and performant.
+                I am a third-year Computer Science student majoring in Artificial Intelligence at the University of Mindanao Tagum College. As a passionate developer, I specialize in creating Flutter mobile applications and modern web solutions. 
+                With a strong focus on clean code and pixel-perfect designs, I strive to deliver experiences that are both visually stunning and highly efficient.
               </p>
               <p className="font-heading text-sm leading-relaxed text-foreground/80 mb-4">
-                When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
-                projects, or diving into retro gaming culture.
+                Beyond coding, I enjoy exploring emerging technologies, contributing to open-source projects, and immersing myself in the world of retro gaming culture.
               </p>
               <p className="font-mono-retro text-xs text-primary animate-pulse">{'> _'}</p>
             </div>
