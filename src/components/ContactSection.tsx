@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { socialLinks } from "@/data/portfolio";
-import { Github, Linkedin, Twitter, Mail, Send } from "lucide-react";
+import { Github, Linkedin, Facebook, Mail, Send } from "lucide-react";
 import { useState } from "react";
 
 const ContactSection = () => {
@@ -8,14 +8,14 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    window.location.href = `mailto:${socialLinks.email}?subject=Portfolio Contact from ${formData.name}&body=${formData.message}`;
+    window.location.href = `mailto:jaesmalla1@gmail.com?subject=Portfolio Contact from ${formData.name}&body=${formData.message}`;
   };
 
   const socials = [
-    { icon: Github, href: socialLinks.github, label: "GitHub" },
+    { icon: Github, href: "https://github.com/jaeqwrty", label: "GitHub" },
     { icon: Linkedin, href: socialLinks.linkedin, label: "LinkedIn" },
-    { icon: Twitter, href: socialLinks.twitter, label: "Twitter" },
-    { icon: Mail, href: `mailto:${socialLinks.email}`, label: "Email" },
+    { icon: Facebook, href: "https://www.facebook.com/jaecoleeee/", label: "Facebook" },
+    { icon: Mail, href: "mailto:jaesmalla1@gmail.com", label: "Email" },
   ];
 
   return (
